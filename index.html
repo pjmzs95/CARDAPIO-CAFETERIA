@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cardápio Dant Coffee's</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Delius&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- imagem no fundo da capa -->
+  <header id="hero">
+  <h1>Dant Coffee's</h1>
+  <h3>The Best Of The Best!</h3>
+  <nav>
+    <ul>
+      <li class="dropdown">
+        <a href="#cafes" class="dropbtn">Cafés ▾</a>
+        <ul class="dropdown-menu">
+          <li><a href="#classicos">Cafés Clássicos</a></li>
+          <li><a href="#especiais">Cafés Especiais</a></li>
+          <li><a href="#gelados">Cafés Gelados</a></li>
+          <li><a href="#variacoes">Variações Saborizadas</a></li>
+        </ul>
+      </li>
+      <li><a href="#acompanhamentos">Acompanhamentos</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+
+  <!-- Barra de informações no topo -->
+<div class="top-bar">
+  <nav>
+    <ul>
+      <li><a href="#sobre-nos">SOBRE NÓS</a></li>
+      <li><a href="#fornecedores">FORNECEDORES</a></li>
+      <li><a href="#feedbacks">FEEDBACKS</a></li>
+      <li><a href="#faça-parte">FAÇA PARTE</a></li>
+    </ul>
+  </nav>
+</div>
+
+</header>
+
+
+  <main>
+    <!-- Cafés Clássicos -->
+    <section id="classicos">
+      <h2>CAFÉS CLÁSSICOS</h2>
+      <div class="card-container">
+        <div class="card">
+          <img src="imagens/espresso-tradicional.jpg" alt="Tradicional">
+          <h3>Espresso Tradicional</h3>
+          <p>Café intenso, servido em dose curta.</p>
+          <p>30ml – forte e encorpado.</p>
+          <p class="preco">R$ 6,00</p>
+        </div>
+
+        <div class="card">
+          <img src="imagens/espresso-duplo.jpg" alt="Espresso Duplo">
+          <h3>Espresso Duplo</h3>
+          <p>Duas doses de espresso para os que precisam de potência.</p>
+          <p>60ml</p>
+          <p class="preco">R$ 8,00</p>
+        </div>
+
+        <div class="card">
+          <img src="imagens/café-coado.jpg" alt="Coado">
+          <h3>Café Coado (V60 ou filtro de pano)</h3>
+          <p>Leve e aromático, ideal para quem aprecia sabor limpo.</p>
+          <p>150ml</p>
+          <p class="preco">R$ 7,00</p>
+        </div>
+
+        <div class="card">
+          <img src="imagens/café-americano.jpg" alt="Americano">
+          <h3>Café Americano</h3>
+          <p>Espresso diluído em água quente.</p>
+          <p>Mais suave e longo.</p>
+          <p class="preco">R$ 7,50</p>
+        </div>
+
+      </div>
+    </section>
+
+
+<!-- Cafés Especiais -->
+    <section id="especiais">
+      <h2>CAFÉS ESPECIAIS</h2>
+      <div class="card-container">
+        <div class="card">
+          <img src="imagens/latte.png" alt="Latte">
+          <h3>Latte</h3>
+          <p>Espresso com leite vaporizado e um leve toque de espuma.</p>
+          <p>Suave e cremoso.</p>
+          <p class="preco">R$ 10,00</p>
+        </div>
+
+        <div class="card">
+          <img src="imagens/cappuccino-italiano.png" alt="Cappuccino Italiano">
+          <h3>Cappuccino Italiano</h3>
+          <p>Proporção equilibrada entre espresso, leite e espuma.</p>
+          <p>Ideal para o meio da tarde.</p>
+          <p class="preco">R$ 10,50</p>
+        </div>
+
+        <div class="card">
+          <img src="imagens/mocha.png" alt="Mocha">
+          <h3>Mocha</h3>
+          <p>Espresso, leite vaporizado e calda de chocolate meio amargo.</p>
+          <p>Para os chocólatras.</p>
+          <p class="preco">R$ 12,00</p>
+        </div>
+
+        <div class="card">
+          <img src="imagens/macchiato.png" alt="Macchiato">
+          <h3>Macchiato</h3>
+          <p>Espresso com um toque de espuma de leite.</p>
+          <p>Intenso com suavidade no final.</p>
+          <p class="preco">R$ 8,50</p>
+        </div>
+
+        <div class="card">
+          <img src="imagens/flat-white.png" alt="Flat White">
+          <h3>Flat White</h3>
+          <p>Similar ao latte, mas com menos espuma e sabor mais intenso do café.</p>
+          <p class="preco">R$ 11,00</p>
+        </div>
+
+        <div class="card">
+          <img src="imagens/affogato.png" alt="Affogato">
+          <h3>Affogato</h3>
+          <p>Bola de sorvete de baunilha "afogada" em espresso quente.</p>
+          <p>Sobremesa e café ao mesmo tempo.</p>
+          <p class="preco">R$ 13,00</p>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!--Cafés Gelados -->
+    <section id="gelados">
+      <h2>CAFÉS GELADOS</h2>
+      <div class="card-container">
+        <div class="card">
+          <img src="imagens/cold-brew.jpg" alt="Cold Brew">
+          <h3>Cold Brew</h3>
+          <p>Café extraído a frio por 12 horas.</p>
+          <p>Menos acidez, mais suavidade.</p>
+          <p class="preco">R$ 12,00</p>
+        </div>
+
+        <div class="card">
+          <img src="imagens/iced-latte.jpg" alt="Iced Latte">
+          <h3>Iced Latte</h3>
+          <p>Espresso com leite gelado e gelo.</p>
+          <p class="preco">R$ 11,00</p>
+        </div>
+
+        <div class="card">
+          <img src="imagens/frappé-de-café.jpg" alt="Frappé de Café">
+          <h3>Frappé de Café</h3>
+          <p>Bebida gelada batida com café, leite, açúcar e gelo.</p>
+          <p class="preco">R$ 14,00</p>
+        </div>
+
+        <div class="card">
+          <img src="imagens/café-tônica.jpg" alt="Café Tônica">
+          <h3>Café Tônica</h3>
+          <p>Espresso + água tônica + limão.</p>
+          <p>Refrescante e ousado.</p>
+          <p class="preco">R$ 13,50</p>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- Variações Saborizadas -->
+    <section id="variacoes">
+      <h2>VARIAÇÕES SABORIZADAS</h2>
+      <div class="card-container">
+       <div class="card">
+          <img src="imagens/Latte de Baunilha-Caramelo-Avelã.jpg" alt="Latte de Baunilha / Caramelo / Avelã">
+          <h3>Latte de Baunilha / Caramelo / Avelã</h3>
+          <p>Latte com xarope artesanal de sabor.</p>
+          <p class="preco">R$ 12,00</p>
+        </div>
+
+        <div class="card">
+          <img src="imagens/mocha-branco.jpg" alt="Mocha Branco">
+          <h3>Mocha Branco</h3>
+          <p>Espresso com leite vaporizado e chocolate branco derretido.</p>
+          <p class="preco">R$ 13,00</p>
+        </div>
+
+        <div class="card">
+          <img src="imagens/chococino.jpg" alt="Chococino">
+          <h3>Chococino</h3>
+          <p>Chocolate quente com um toque de espresso.</p>
+          <p class="preco">R$ 11,00</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Acompanhamentos -->
+    <section id="acompanhamentos">
+      <h2>ACOMPANHAMENTOS</h2>
+
+        <div class="card-container">
+        <div class="card">
+          <img src="imagens/croissant tradicional-recheado-doce.jpg" alt="Croissant tradicional">
+          <h3>Croissant tradicional / recheado</h3>
+          <p class="preco">R$ 9,00</p>
+        </div>
+
+        <div class="card">
+          <img src="imagens/cookies-artesanais.png" alt="Cookies artesanais">
+          <h3>Cookies artesanais</h3>
+          <p class="preco">R$ 7,50</p>
+        </div>
+
+        <div class="card">
+          <img src="imagens/brownie-de-chocolate-com-nozes.png" alt="Brownie de chocolate com nozes">
+          <h3>Brownie de chocolate com nozes</h3>
+          <p class="preco">R$ 9,00</p>
+        </div>
+
+        <div class="card">
+          <img src="imagens/cheesecake.png" alt="Cheesecake">
+          <h3>Cheesecake</h3>
+          <p class="preco">R$ 14,00</p>
+        </div>
+
+        <div class="card">
+          <img src="imagens/pão-de-queijo-mineiro.png" alt="Pão de queijo mineiro">
+          <h3>Pão de queijo mineiro</h3>
+          <p class="preco">R$ 6,50</p>
+        </div>
+
+        <div class="card">
+          <img src="imagens/sanduíches-artesanais.jpg" alt="Sanduíches artesanais">
+          <h3>Sanduíches artesanais</h3>
+          <p class="preco">R$ 14,00</p>
+        </div>
+
+        <div class="card">
+          <img src="imagens/mini-croissants-de-peito-de-peru-e-queijo.jpg" alt="Mini croissants de peito de peru e queijo">
+          <h3>Mini croissants de peito de peru e queijo</h3>
+          <p class="preco">R$ 8,00</p>
+        </div>
+
+        <div class="card">
+          <img src="imagens/folhados.png" alt="Folhados">
+          <h3>Folhados</h3>
+          <p class="preco">R$ 8,50</p>
+      </div>
+
+    </section>
+  </main>
+
+  <footer id="contato">
+    <div class="footer-row">
+      <div><p>📞 (11) 1234-5678</p>
+     <p>📍 Rua do Café, 123 - São Paulo/SP</p>
+    </div>
+    <div>
+      <p>📧 contato@dantcoffees.com.br</p>
+      <p>📱 @dantcoffees</p>
+    </div>
+
+    <div class="footer-bottom">
+      <p>Dant Coffee's 2025©</p>
+    </div>
+  </footer>
+  
+  <script src="./script.js"></script>
+
+  <!-- Script para o "back to top" -->
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const backToTop = document.getElementById('back-to-top');
+
+  window.addEventListener('scroll', () => {
+    const scrollPosition = window.scrollY;
+    const pageHeight = document.documentElement.scrollHeight - window.innerHeight;
+
+    if (scrollPosition > pageHeight / 2) {  // aparece quando rolar metade da página
+      backToTop.style.display = 'block';
+    } else {
+      backToTop.style.display = 'none';
+    }
+  });
+
+  backToTop.addEventListener('click', (e) => {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+});
+</script>
+
+<!-- Botão de voltar ao topo -->
+<a href="#" id="back-to-top">⬆</a>
+</body>
+</html>
